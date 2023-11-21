@@ -18,16 +18,22 @@ img{
 h1 {
     font-size: 36px;
 }
+main{
+    padding: 20px 200px;
+}
 .container {
     max-width: 800px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
+    /* width: 1040px; */
+    height: 230px;
     padding: 20px;
+    border-radius: 12px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 h2 {
     font-size: 24px;
-    color: #0072b5;
+    color: #000000;
     margin-top: 20px;
 }
 ul {

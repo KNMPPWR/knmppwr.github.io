@@ -14,6 +14,7 @@ header {
 
 main {
     height: 100%;
+    padding: 20px 200px;
 }
 
 #img-1 {
@@ -24,9 +25,6 @@ main {
 h1 {
     font-size: 36px;
 }
-main {
-    padding: 20px 200px;
-}
 
 h2 {
     font-size: 24px;
@@ -35,13 +33,15 @@ h2 {
 }
 .container {
     max-width: 1040px;
+    /* max-width: 100%; */
     height: 230px;
     border-radius: 12px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px
+    /* margin-bottom: 100px; */
+    
 }
 
 #img-2 {
@@ -106,16 +106,88 @@ h2 {
     padding: 3px;
 }
 
+.line{
+    width: 1040px;
+    height: 2px;      
+    background: rgba(47, 37, 87, 0.40);
+    margin-top: 185px;
+}
+.container_after_line{
+    max-width: 1040px;
+    height: 170px;
+    display: flex;
+    margin-top: 15px;
+}
+#section_logo{
+    padding: 0;
+    width: 280px;
+    text-align: left;
+}
+.button{
+    border: none;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    color: white;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #d9d9d9;
+}
+#section_contact{
+    padding: 0;
+    width: 285px;
+    text-align: left;
 
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
 }
-li {
-    margin-bottom: 10px;
+#management{
+    padding: 0;
+    width: 475px;
+    text-align: left;
 }
-footer {
+.p_special{
+    color: #000;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-block-end: 0px;
+}
+.p_underline{
+    color: #3B82F6;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-block-end: 0px;
+}
+.role{
+    margin-block-start: 0px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 0;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after{
+    content: "";
+    display: table;
     clear: both;
+  }
+footer {
+    /* clear: both; */
     background-color: #264653;
     color: #FFF;
     text-align: center;
